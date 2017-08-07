@@ -126,7 +126,7 @@ else
     exit 1
   fi
   
-  chmod 777 DevSaqt.sh
+  chmod 777 faeder.sh
 
     echo -e "\033[38;5;208m"   
   echo -e "       CH > @Team_faeder            "
@@ -149,5 +149,5 @@ echo -e "\e[100m          CH > @Team_faeder        \e[00;37;40m"
 echo -e "\e[01;34m        CH > @Team_faeder         \e[00;37;40m"
 echo ""
 
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./Feader/Feader.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./Faeder/Faeder.lua -l 1 -E $@
 fi
